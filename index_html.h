@@ -148,8 +148,8 @@ String INDEX_HTML = R"(<!DOCTYPE html>
       </div>
     </ons-toolbar>
 <ons-card>
-    <div class='title'>Adjust position</div>
-  <div class='content'><p>Move the slider to the wanted position or use the arrows to open/close to the max positions</p></div>
+    <div class='title'>Ustaw pozycję</div>
+  <div class='content'><p>Przesuń suwak do pożądanej pozycji lub użyj strzałek, aby otworzyć lub zamknąć całkowicie roletę.</p></div>
   <ons-row>
       <ons-col width='40px' style='text-align: center; line-height: 31px;'>
       </ons-col>
@@ -174,7 +174,7 @@ String INDEX_HTML = R"(<!DOCTYPE html>
     </ons-card>
     <ons-card id='update-card' style='display:none'>
       <div class='title'>Update available</div>
-      <div class='content'>You are running <span id='cversion'></span> and <span id='nversion'></span> is the latest. Go to <a href='https://github.com/nidayand/motor-on-roller-blind-ws/releases'>the repo</a> to download</div>
+      <div class='content'>Twoja wersja to <span id='cversion'></span>. Dostępna jest nowa wersja <span id='nversion'></span>. Odwiedź stronę <a href='https://github.com/mientki/smart-blinds/releases'>GitHub</a> aby pobrać nową wersję.</div>
     </ons-card>
   </ons-page>
 </template>
@@ -192,15 +192,15 @@ String INDEX_HTML = R"(<!DOCTYPE html>
       </div>
     </ons-toolbar>
   <ons-card>
-    <div class='title'>Instructions</div>
+    <div class='title'>Instrukcja</div>
     <div class='content'>
     <p>
     <ol>
-      <li>Use the arrows and stop button to navigate to the top position i.e. the blind is opened</li>
-      <li>Click the START button</li>
-      <li>Use the down arrow to navigate to the max closed position</li>
-      <li>Click the MAX button</li>
-      <li>Calibration is completed!</li>
+      <li>Użyj strzałek i przycisku stop, aby przejść do najwyższej pozycji, aż roleta się otworzy</li>
+      <li>Naciśnij przycisk START</li>
+      <li>Użyj strzałki w dół, aby przejść do maksymalnej pozycji zamkniętej</li>
+      <li>Naciśnij przycisk MAX</li>
+      <li>Kalibracja jest zakończona.</li>
     </ol>
     </p>
   </div>
@@ -216,9 +216,9 @@ String INDEX_HTML = R"(<!DOCTYPE html>
   <ons-card>
     <div class='title'>Store</div>
     <ons-row style='width:100%'>
-      <ons-col style='text-align:center'><ons-button id='set-start'>Set Start</ons-button></ons-col>
+      <ons-col style='text-align:center'><ons-button id='set-start'>Ustaw Start</ons-button></ons-col>
       <ons-col style='text-align:center'>&nbsp;</ons-col>
-      <ons-col style='text-align:center'><ons-button id='set-max'>Set Max</ons-button></ons-col>
+      <ons-col style='text-align:center'><ons-button id='set-max'>Ustaw Max</ons-button></ons-col>
     </ons-row>
   </ons-card>
   </ons-page>
