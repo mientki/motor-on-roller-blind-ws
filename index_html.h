@@ -124,7 +124,7 @@ String INDEX_HTML = R"(<!DOCTYPE html>
           Home
         </ons-list-item>
         <ons-list-item onclick='fn.load("settings.html")' tappable>
-          Settings
+          Ustawienia
         </ons-list-item>
         <ons-list-item onclick='fn.load("about.html")' tappable>
           About
