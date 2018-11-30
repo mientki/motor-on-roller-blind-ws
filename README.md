@@ -1,4 +1,7 @@
-# motor-on-roller-blind-ws
+# smart-blinds
+
+This plugin is based on [motor-on-roller-blind-ws](https://github.com/nidayand/motor-on-roller-blind-ws). Thanks for nidayand.
+
 WebSocket based version of [motor-on-roller-blind](https://github.com/nidayand/motor-on-roller-blind). I.e. there is no need of an MQTT server but MQTT is supported as well - you can control it with WebSockets and/or with MQTT messages.
 
 3d parts for printing are available on Thingiverse.com: ["motor on a roller blind"](https://www.thingiverse.com/thing:2392856)
