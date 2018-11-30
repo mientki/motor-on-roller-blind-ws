@@ -211,8 +211,8 @@ void mqttCallback(char* topic, byte* payload, unsigned int length) {
 void stopPowerToCoils() {
   digitalWrite(D5, LOW);
   digitalWrite(D7, LOW);
-  digitalWrite(D2, LOW);
-  digitalWrite(D4, LOW);
+  digitalWrite(D6, LOW);
+  digitalWrite(D8, LOW);
 }
 
 /*
