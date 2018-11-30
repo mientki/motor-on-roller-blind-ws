@@ -1,6 +1,6 @@
 # smart-blinds
 
-This plugin is based on [motor-on-roller-blind-ws](https://github.com/nidayand/motor-on-roller-blind-ws). Thanks for nidayand. I introduced small modifications in the configuration under the Motor Shield Board Node MCU with L293DD motor driver (double letter D). Original repositorry [motor-on-roller-blind-ws](https://github.com/nidayand/motor-on-roller-blind-ws) work properly with L293D motor driver (single letter D).
+This plugin is based on [motor-on-roller-blind-ws](https://github.com/nidayand/motor-on-roller-blind-ws). Thanks for nidayand. I introduced small modifications in the configuration under the Motor Shield Board Node MCU with L293DD motor driver (double letter D). Original repositorry [motor-on-roller-blind-ws](https://github.com/nidayand/motor-on-roller-blind-ws) work properly with L293D motor driver (single letter D). Translated into Polish for their own needs.
 
 WebSocket based version of [motor-on-roller-blind](https://github.com/nidayand/motor-on-roller-blind). I.e. there is no need of an MQTT server but MQTT is supported as well - you can control it with WebSockets and/or with MQTT messages.
 
