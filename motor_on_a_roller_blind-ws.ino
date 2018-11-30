@@ -16,12 +16,12 @@
 //--------------- CHANGE PARAMETERS ------------------
 //Configure Default Settings for Access Point logon
 String APid = "BlindsConnectAP";    //Name of access point
-String APpw = "nidayand";           //Hardcoded password for access point
+String APpw = "blinds";           //Hardcoded password for access point
 
 //----------------------------------------------------
 
 // Version number for checking if there are new code releases and notifying the user
-String version = "1.3.1";
+String version = "1.3.2";
 
 NidayandHelper helper = NidayandHelper();
 
@@ -50,7 +50,7 @@ bool shouldSaveConfig = false;      //Used for WIFI Manager callback to save par
 boolean initLoop = true;            //To enable actions first time the loop is run
 boolean ccw = true;                 //Turns counter clockwise to lower the curtain
 
-Stepper_28BYJ_48 small_stepper(D1, D3, D2, D4); //Initiate stepper driver
+Stepper_28BYJ_48 small_stepper(D5, D7, D6, D8); //Initiate stepper driver
 
 ESP8266WebServer server(80);              // TCP server at port 80 will respond to HTTP requests
 WebSocketsServer webSocket = WebSocketsServer(81);  // WebSockets will respond on port 81
@@ -209,9 +209,9 @@ void mqttCallback(char* topic, byte* payload, unsigned int length) {
   is not moving
 */
 void stopPowerToCoils() {
-  digitalWrite(D1, LOW);
+  digitalWrite(D5, LOW);
+  digitalWrite(D7, LOW);
   digitalWrite(D2, LOW);
-  digitalWrite(D3, LOW);
   digitalWrite(D4, LOW);
 }
 
